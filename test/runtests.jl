@@ -1,3 +1,4 @@
+module TestMetalHead begin
 using Metalhead, Test
 
 # Standardized testing for the models of tomorrow
@@ -48,4 +49,5 @@ if length(datasets()) == 2
         classify(vgg19, val1)
     end
     predict(vgg19, testimgs(dataset(ImageNet))[1])
+end
 end
