@@ -1,4 +1,4 @@
-module TestMetalHead begin
+module TestMetalHead
 using Metalhead, Test
 
 # Standardized testing for the models of tomorrow
